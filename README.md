@@ -2,19 +2,19 @@ go-yobit
 ========
 go-yobit is an implementation of the Yobit exchange API in Golang.
 
-##Supports  
+## Supports  
 
 * Public API
 * Trade API
 * Cloudflare challenge solver
 
-##Import
+## Import
 
 ~~~go
 import "github.com/ikonovalov/go-yobit"
 ~~~
 
-##Usage
+## Usage
 
 ~~~go
 package main
