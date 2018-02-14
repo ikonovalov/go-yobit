@@ -3,16 +3,19 @@ go-yobit
 go-yobit is an implementation of the Yobit exchange API in Golang.
 
 ##Supports  
+
 * Public API
 * Trade API
 * Cloudflare challenge solver
 
 ##Import
+
 ~~~go
 import "github.com/ikonovalov/go-yobit"
 ~~~
 
 ##Usage
+
 ~~~go
 package main
 import "github.com/ikonovalov/go-yobit"
