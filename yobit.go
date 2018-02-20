@@ -72,7 +72,7 @@ func New(credential ApiCredential) *Yobit {
 
 	yobit := Yobit{
 		site:       yobitUrl,
-		client:     &http.Client{Transport: cloudflare, Jar: cloudflare.Cookies},
+		client:     &http.Client{Transport: cloudflare, Jar: cloudflare.Cookies, Timeout: time.Second * 10},
 		credential: &credential,
 		store:      NewStorage(),
 	}
